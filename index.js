@@ -22,7 +22,7 @@ const calculateTime = (year, month, day) => {
         formattedDays = -formattedDays;
     }
 
-    return `До встречи осталось: ${year - currentTime.year} лет, ${formattedMonths} месяцев, ${formattedDays} дней`
+    return `До встречи осталось: ${year - currentTime.year} лет, ${formattedMonths} месяцев, ${formattedDays} дней`;
 }
 
 console.log(calculateTime(timeOfMeeting.year, timeOfMeeting.month, timeOfMeeting.day));
